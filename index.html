@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workey</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="contact-btn"></div>
+    <!-- Start header -->
+    <header>
+        <div class="top-bar">
+            <button class="burger-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <div class="account-options">
+                <div class="share">
+                    <span>Share your space</span>
+                    <i class="fa-solid fa-city"></i>
+                </div>
+                <div class="suppliers">
+                    <span>suppliers accounts</span>
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+            </div>
+            <div class="settings">
+                <div class="currency">
+                    <button>SAR<i class="fa-solid fa-angle-down"></i></button>
+                    <ul class="dropdown">
+                        <li>EGP</li>
+                    </ul>
+                </div>
+                <div class="lang">
+                    <button><img src="assets/images/arabic.jpg" alt="arabic"><i
+                            class="fa-solid fa-angle-down"></i></button>
+                    <ul class="dropdown">
+                        <li><img src="assets/images/english.png" alt="english"></li>
+                    </ul>
+                </div>
+                <div class="current-lang">
+                    <span>العربية</span>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="content">
+                <div class="logo"><a href="#"><img src="assets/images/logo.jpg" alt="logo"></a></div>
+                <form action="#" method="GET">
+                    <div class="search-input">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" name="search" placeholder="Search by location">
+                    </div>
+                </form>
+                <ul>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Bookings</a></li>
+                    <li><a href="#">Suppliers</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </div>
+            <div class="action-btn">
+                <a href="#">Get Started</a>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+
+    <!-- start main -->
+    <main>
+        <div class="login-form">
+            <h3>Login to your account</h3>
+            <form action="#" method="POST">
+                <div class="email">
+                    <label for="email">Email/phone number</label>
+                    <input type="text" id="email" required>
+                </div>
+                <div class="password">
+                    <label for="password">Password</label>
+                    <div class="password-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" required>
+                    </div>
+                </div>
+                <p class="forget-password">Forget password</p>
+                <button type="submit"><span>Login</span><i class="fa-solid fa-lock"></i></button>
+                <div class="login-methods">
+                    <a href="#"><img src="assets/images/linked-in.jpg" alt="linked-in">Login with Linked in</a>
+                    <a href="#"><img src="assets/images/google.jpg" alt="google">Login with Google</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!-- End main -->
+</body>
+
+</html>
