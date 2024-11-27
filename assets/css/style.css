@@ -347,6 +347,13 @@ main::after {
     margin: 20px 0;
 }
 
+.counter {
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    color: var(--main-color);
+}
+
 .login-form button[type="submit"] {
     background-color: #dce0e9;
     width: 100%;
